@@ -25,7 +25,8 @@ h1,h2,h3,h4,h5,h6{
     /*font-weight:500;*/
     font-family:'Saira Extra Condensed',serif;
     /*font-size:1.35rem;*/
-	background-color: #fcf3cf ;
+	background-color: #E2CFC0; 
+	/*#fcf3cf ;*/
 	margin-left:2px;
 	padding: 10px;
 }
@@ -116,7 +117,7 @@ section.resume-section .resume-item .resume-date{
     color:#FF893B!important
 }
 a{
-    color:#FF893B
+    color: #900117 ;
 }
 a:active,a:focus,a:hover{
     color:#824027
@@ -134,7 +135,6 @@ a:active,a:focus,a:hover{
      border: 2px solid #f2f2f2;
 }
  .table tr{
-     font-size: 12px;
      color: black;
      line-height: 1.4;
 	 font-weight:500;
@@ -144,22 +144,28 @@ a:active,a:focus,a:hover{
      border: 2px solid #f2f2f2;
 }
  .table tr:hover{
-     font-size: 12px;
      color: black;
      background-color:  #fcf3cf ;
      border: 2px solid #f2f2f2;
 }
-#profilep{
+.profilep{
 	font-size:14px;
+	text-align:justify
 }
 .highlights{
 	font-weight:bold;
 	color:blue;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 .menuheading{
 	width:100%;
 	border-bottom:3px solid #FF893B;
 	margin-left:1px;
 	margin-bottom: 25px;
+}
+#Pimage{
+	height:100%;
+	width:100%;
+	margin-left:-12px;
+	/*box-shadow: 5px 5px #BAA5A0;*/
 }
