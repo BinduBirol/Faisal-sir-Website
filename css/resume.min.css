@@ -1,7 +1,8 @@
 body {
     font-family:'Open Sans',serif;
-    padding-top:54px;
-    color:black
+    /*padding-top:54px;*/
+    color:black;
+	/*padding:70px;*/
 }
 @media (min-width:992px) {
     body{
@@ -23,12 +24,16 @@ h1,h2,h3,h4,h5,h6{
 }
  .subheading{
     /*font-weight:500;*/
-    font-family:'Saira Extra Condensed',serif;
+    font-family: sans-serif;
     /*font-size:1.35rem;*/
 	background-color: #E2CFC0; 
+	background: linear-gradient(to right, #E2CFC0, #ffebdb);
 	/*#fcf3cf ;*/
 	margin-left:2px;
 	padding: 10px;
+	font-size:14px;
+	text-align:justify;
+	border-left:3px solid #FF893B;
 }
  .list-social-icons a{
     color:#495057
@@ -91,7 +96,12 @@ h1,h2,h3,h4,h5,h6{
 section.resume-section{
     border-bottom:1px solid #dee2e6;
     padding-top:5rem!important;
-    padding-bottom:5rem!important
+    padding-bottom:5rem!important;
+	/* padding-left:5rem!important;
+    padding-right:5rem!important;
+	background-color:green;*/
+	margin-left:5%;
+	margin-right:5%;
 }
 section.resume-section .resume-item .resume-date{
     min-width:none
@@ -140,17 +150,16 @@ a:active,a:focus,a:hover{
 	 font-weight:500;
      border: 2px solid #f2f2f2;
 }
+.table tr:nth-child(odd){
+	background-color:    #f7f9f9 ;
+	}
  .table td{
      border: 2px solid #f2f2f2;
 }
- .table tr:hover{
-     color: black;
-     background-color:  #fcf3cf ;
-     border: 2px solid #f2f2f2;
-}
+
 .profilep{
 	font-size:14px;
-	text-align:justify
+	text-align:justify;
 }
 .highlights{
 	font-weight:bold;
@@ -166,6 +175,7 @@ a:active,a:focus,a:hover{
 #Pimage{
 	height:100%;
 	width:100%;
-	margin-left:-12px;
+	/*margin-left:-12px;*/
+	display:flex;
 	/*box-shadow: 5px 5px #BAA5A0;*/
 }
