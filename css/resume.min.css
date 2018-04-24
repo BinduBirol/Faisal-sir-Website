@@ -7,20 +7,27 @@ body {
 @media (min-width:992px) {
     body{
         padding-top:0;
-        padding-left:17rem
+        padding-left:17rem;
+		padding-right:2rem
     }
 }
-h1,h2,h3,h4,h5,h6{
-    font-family:'Saira Extra Condensed',serif;
-    /*font-weight:700;
-    color:#0051d3*/
-}
+
  h1{
     font-size:6rem;
     line-height:5.5rem
 }
  h2{
     font-size:2.5rem
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', serif;
+ 
 }
  .subheading{
     /*font-weight:500;*/
@@ -170,6 +177,7 @@ a:active,a:focus,a:hover{
 .highlights{
 	font-weight:bold;
 	color:blue;
+	font-size: 17px;
 	/*text-transform: uppercase;*/
 }
 .menuheading{
